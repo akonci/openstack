@@ -12,3 +12,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, :inline => "apt-get update && apt-get install -y nginx"
   config.vm.provision :shell, :inline => "ln -s /vagrant /usr/share/nginx/html/demo"
 end
+
+# samo en komentar
